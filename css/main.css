@@ -60,12 +60,18 @@ textarea {
     max-height: 550px;
   }
   section{
-    width: calc(100vw / 3);
+    width: 32%;
+  }
+  article{
+    width: 68%;
+  }
+  button{
+    
   }
   main{
     width: 100vw;
-    height: 100vh;
-    padding-top: 35px;
+    height: 85vh;
+    padding-top: 15vh;
   }
   nav{
     width: 100vw;
