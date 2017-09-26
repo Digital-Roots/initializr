@@ -1,4 +1,4 @@
-$(document).ready(function{
+$(document).ready(function(){
   $('#runoff').click(function(){
     $.getJSON('./data.json'function(data){
       $('articale').append(data.runoff.articale);
