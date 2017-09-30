@@ -55,31 +55,55 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   *{
+     border-color: black;
+   }
   section svg{
     max-width: 350px;
     max-height: 550px;
   }
   section{
+    display: block;
     width: 32%;
+    padding-top: 25px
   }
   article{
+    display: block;
     width: 68%;
+    padding-top: 25px
   }
-  button{
-    
+  nav[aria-labelleby="article nav"] button{
+    height: 25px;
+    width: 35px;
+  }
+  nav[aria-labelleby="article nav"] button:not(:first-of-type){
+    padding-left: 7.5px;
+  }
+  nav[aria-labelleby="article nav"] button:not(:last-of-type){
+    padding-right: 7.5px;
   }
   main{
+    flex-flow: column;
+    display: flex;
     width: 100vw;
     height: 85vh;
-    padding-top: 15vh;
+  }
+  #content{
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
   }
   nav{
     width: 100vw;
+    height: 100vh;
+    max-height: 35px;
   }
   nav[aria-labelledby="site nav"]{
-    height: 35px
+    height: 15vh;
   }
-
+  footer{
+    
+  }
 
 
 
